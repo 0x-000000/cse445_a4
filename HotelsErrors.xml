@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel>
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E.7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="9.6">
+        <Name>Holiday Inn Express nd Suites</Name>
+        <Phone>480-507-3000</Phone>
+        <Address>
+            <Number>5530</Number>
+            <Street>S. Power Road</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85295</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="9.1">
+        <Name>Hampton Inn nd Suites Phoenix</Name>
+        <Phone>480-832-7000</Phone>
+        <Address NearestAirport="Mesa Gateway Airport">
+            <Number>5275</Number>
+            <Street>E. Baseline Rd</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85234</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="9.0">
+        <Name>Hampton Inn nd Suites Phoenix - East Mesa in Gilbert</Name>
+        <Phone>480-654-4000</Phone>
+        <Address NearestAirport="Mesa Gateway Airport">
+            <Number>1825</Number>
+            <Street>N Higley Road</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85234</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="8.8">
+        <Name>Tru by Hilton Gilbert</Name>
+        <Phone>602-567-9800</Phone>
+        <Address NearestAirport="Mesa Gateway Airport">
+            <Number>1950</Number>
+            <Street>S Santan Village Parkway</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85295</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="8.5">
+        <Name>Home2 Suites by Hilton Gilbert</Name>
+        <Phone>480-857-4778</Phone>
+        <Address NearestAirport="Mesa Gateway Airport">
+            <Number>3333</Number>
+            <Street>S Market Street</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85297</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="7.9">
+        <Name>Hyatt Place Phoenix Gilbert</Name>
+        <Phone>480-899-5900</Phone>
+        <Address NearestAirport="Mesa Gateway Airport">
+            <Number>3275</Number>
+            <Street>S Market Street</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85297</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="6.7">
+        <Name>DoubleTree by Hilton Phoenix-Gilbert</Name>
+        <Phone>480-809-4100</Phone>
+        <Address NearestAirport="Mesa Gateway Airport">
+            <Number>1800</Number>
+            <Street>S SanTan Village Parkway</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85295</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="7.9">
+        <Name>Residence Inn by Marriott Phoenix Gilbert</Name>
+        <Name>Residence Inn by Marriott Phoenix Gilbert</Name>
+        <Phone>480-699-4450</Phone>
+        <Address NearestAirport="Mesa Gateway Airport">
+            <Number>3021</Number>
+            <Street>E Banner Gateway Drive</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85234</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>Civic Centre, Resort Oasis, Open Kitchen nd Priv Entry</Name>
+        <Phone>480-238-3342</Phone>
+        <Address NearestAirport="Mesa Gateway Airport">
+        <Number>750</Number>
+        <Street>E Eagle Ln</Street>
+        <City>Gilbert</City>
+        <State>AZ</State>
+        <Zip>85296</Zip>
+    </Hotel>
+    <Hotel Rating="9.5">
+        <Name>Gilbert Apartment with Grill, Fire Pit and Pool Access</Name>
+        <Address NearestAirport="Mesa Gateway Airport">
+            <Number>908</Number>
+            <Street>E Scott Ave</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85234</Zip>
+        </Address>
+    </Hotel>
+</Hotel>
