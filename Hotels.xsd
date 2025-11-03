@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<xsd:schema id="Hotels" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-  xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+﻿<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <xsd:element name="Hotels">
     <xsd:complexType>
       <xsd:sequence>
@@ -10,15 +8,15 @@
   </xsd:element>
   <xsd:complexType name="HotelType">
     <xsd:sequence>
-      <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1" />
+      <xsd:element name="Name" type="xsd:string" />
       <xsd:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded" />
-      <xsd:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1" />
+      <xsd:element name="Address" type="AddressType" />
     </xsd:sequence>
-    <xsd:attribute name="Rating" type="RatingType" use="optional" />
+    <xsd:attribute name="Rating" type="xsd:decimal" use="optional" />
   </xsd:complexType>
   <xsd:complexType name="AddressType">
     <xsd:sequence>
-      <xsd:element name="Number" type="xsd:integer" />
+      <xsd:element name="Number" type="xsd:positiveInteger" />
       <xsd:element name="Street" type="xsd:string" />
       <xsd:element name="City" type="xsd:string" />
       <xsd:element name="State" type="xsd:string" />
@@ -29,12 +27,6 @@
   <xsd:simpleType name="PhoneType">
     <xsd:restriction base="xsd:string">
       <xsd:pattern value="\d{3}-\d{3}-\d{4}" />
-    </xsd:restriction>
-  </xsd:simpleType>
-  <xsd:simpleType name="RatingType">
-    <xsd:restriction base="xsd:decimal">
-      <xsd:minInclusive value="0.0" />
-      <xsd:maxInclusive value="10.0" />
     </xsd:restriction>
   </xsd:simpleType>
 </xsd:schema>
